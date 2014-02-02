@@ -1922,3 +1922,11 @@ a,
   fill: c-red-hover;
   cursor: pointer;
 }
+#mask2 {
+  stroke: #999;
+  stroke: #fff;
+  stroke-width: 2px;
+}
+#mask2 image {
+  opacity: 0.75;
+}

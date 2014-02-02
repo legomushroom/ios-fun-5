@@ -1,4 +1,4 @@
-<svg id="svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="1000" height="1000" viewBox="0 0 1000 1000" style="margin-left:100%;position:absolute;">
+<svg id="svg" width="1000" height="1000" viewBox="0 0 1000 1000" style="margin-left:100%;position:absolute;">
   <defs>
     <linearGradient id="redyel" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1">
         <stop offset="0%" stop-color="#ff0000"/>   
@@ -37,13 +37,22 @@
     </pattern>
 
 
-    
-
     <mask id="mask2">
-        <path id="js-process"  stroke-dasharray="2000 2000" stroke-dashoffset="2000" vector-effect="non-scaling-stroke" fill="none" stroke="#fff" stroke-width="3" stroke-miterlimit="10" d="M500,190.041
-        c-171.186,0-309.959,138.773-309.959,309.959c0,171.186,138.773,309.959,309.959,309.959c171.186,0,309.959-138.773,309.959-309.959
-        C809.959,328.814,671.186,190.041,500,190.041"/>
-        <text id="js-process-text"  vector-effect="non-scaling-stroke" fill="#fff" transform="translate(500,530)" font-family="HelveticaNeue-UltraLight" font-size="100" style="font-weight: 100;" text-anchor="middle">0%</text>
+        <circle fill="none" stroke-miterlimit="10" cx="500.403" cy="133.587" r="6.326"/>
+        <path fill="none" stroke-miterlimit="10" d="M519.887,156.174h-14.352h-4.642h-14.351
+        c-1.514,0-2.742,1.228-2.742,2.742s1.228,2.742,2.742,2.742h14.351h4.642h14.352c1.514,0,2.742-1.228,2.742-2.742
+        S521.4,156.174,519.887,156.174z"/>
+        <circle fill="none" stroke-miterlimit="10" cx="500.403" cy="716.115" r="29.095"/>
+        <path fill="none" stroke-miterlimit="10" d="M367.819,194.552c-1.542,0-2.792,1.25-2.792,2.792v472.85v-0.105
+        c0,1.542,1.25,2.792,2.792,2.792h264.2c1.542,0,2.793-1.25,2.793-2.792v-472.85v0.105c0-1.542-1.251-2.792-2.793-2.792H367.819z"/>
+        <path fill="none" stroke-miterlimit="10" d="M344.932,191.741h-1.334c-0.737,0-1.335,0.598-1.335,1.335v27.377
+        c0,0.737,0.598,1.334,1.335,1.334h1.334v32.467h-1.334c-0.737,0-1.335,0.597-1.335,1.334v19.844c0,0.737,0.598,1.335,1.335,1.335
+        h1.334v32.554h-1.334c-0.737,0-1.335,0.598-1.335,1.335V330.5c0,0.737,0.598,1.335,1.335,1.335h1.334v379.283v-0.001
+        c0,27.23,22.075,49.305,49.305,49.305h214.194c27.23,0,49.305-22.074,49.306-49.305V150.302c0-27.231-22.075-49.306-49.306-49.306
+        h-2.765v-1.334c0-0.737-0.598-1.334-1.335-1.334h-49.593c-0.737,0-1.335,0.598-1.335,1.334v1.334H394.237
+        c-27.23,0-49.305,22.075-49.305,49.306v0V191.741z"/>
+        <circle fill="none" stroke-miterlimit="10" cx="471.111" cy="158.917" r="2.682"/>
+        <image id="js-scan-image" xlink:href="mockups/shade.png" x="200" y="-500" height="600" width="600"></image>
     </mask>
 
 

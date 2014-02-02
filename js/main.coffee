@@ -9,8 +9,9 @@ class Main
 	constructor:(@o={})->
 		@vars()
 
-		@animateRainbow()
 		@animate()
+		@animateRainbow()
+
 
 	vars:->
 		@settings = @extend @defaults, @o
@@ -21,6 +22,8 @@ class Main
 		@process 			= document.getElementById('js-process')
 		@processText 	= document.getElementById('js-process-text')
 		@easing  			= TWEEN.Easing.Quadratic.Out
+		@scanImage 		= document.getElementById('#js-scan-image')
+		console.log @scanImage
 
 		@animate 			= @bind @animate, @
 
@@ -51,6 +54,7 @@ class Main
 
 
 	animateRainbow:->
+		console.log 'anima'
 		it = @
 		tween = new TWEEN.Tween({ deg: 0 })
 			.to({ deg: 360 }, @settings.rainbowTime)

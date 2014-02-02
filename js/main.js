@@ -13,8 +13,8 @@
     function Main(o) {
       this.o = o != null ? o : {};
       this.vars();
-      this.animateRainbow();
       this.animate();
+      this.animateRainbow();
     }
 
     Main.prototype.vars = function() {
@@ -24,6 +24,8 @@
       this.process = document.getElementById('js-process');
       this.processText = document.getElementById('js-process-text');
       this.easing = TWEEN.Easing.Quadratic.Out;
+      this.scanImage = document.getElementById('#js-scan-image');
+      console.log(this.scanImage);
       return this.animate = this.bind(this.animate, this);
     };
 
@@ -65,6 +67,7 @@
     Main.prototype.animateRainbow = function() {
       var it, tween;
 
+      console.log('anima');
       it = this;
       return tween = new TWEEN.Tween({
         deg: 0
