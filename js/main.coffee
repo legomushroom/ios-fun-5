@@ -22,7 +22,7 @@ class Main
 		@process 			= document.getElementById('js-process')
 		@processText 	= document.getElementById('js-process-text')
 		@easing  			= TWEEN.Easing.Quadratic.Out
-		@scanImage 		= document.getElementById('#js-scan-image')
+		@scanImage 		= document.getElementById('js-scan-image')
 		console.log @scanImage
 
 		@animate 			= @bind @animate, @

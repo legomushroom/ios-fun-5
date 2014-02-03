@@ -24,7 +24,7 @@
       this.process = document.getElementById('js-process');
       this.processText = document.getElementById('js-process-text');
       this.easing = TWEEN.Easing.Quadratic.Out;
-      this.scanImage = document.getElementById('#js-scan-image');
+      this.scanImage = document.getElementById('js-scan-image');
       console.log(this.scanImage);
       return this.animate = this.bind(this.animate, this);
     };

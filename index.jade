@@ -9,12 +9,14 @@ html
 		include assets.svg
 
 		svg(viewBox="0 0 1000 1000")
+
 			g(mask="url(#mask2)")
 				rect(fill="#ccc", width="100%", height="100%")
-
 				svg(id="process", width="100%")
 					svg(width="1000", viewBox="0 0 1200 1200")
 						rect(id="rainbow", x="-500", y="-500", fill="url(#gradient-pattern)", width="2000", height="2000")
+			
+			
 
 		script(src="js/tween.min.js")
 		script(src="js/main.js")
@@ -24,11 +26,12 @@ html
 				transition: 2000
 			});
 
-			//- i = -500;
-			//- setInterval(function(){
-			//- 	scan = document.getElementById('#js-scan-image');
-			//- 	scan.setAttribute('y', ++i);
-			//- }, 10)
+			i = -400;
+			setInterval(function(){
+				scan = document.getElementById('js-scan-image');
+				scan.setAttribute('y', i+=2);
+				(i == 900) && (i = -400)
+			}, 1000/80)
 
 			//- var run = function(){
 			//- 	Loading.setProgress(0)
