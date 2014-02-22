@@ -12,7 +12,6 @@ class Main
 		@animate()
 		@animateRainbow()
 
-
 	vars:->
 		@settings = @extend @defaults, @o
 
@@ -26,7 +25,6 @@ class Main
 		console.log @scanImage
 
 		@animate 			= @bind @animate, @
-
 
 	extend:(obj, obj2)->
 		for key, value of obj2
