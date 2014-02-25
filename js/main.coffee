@@ -8,7 +8,6 @@ class Main
 
 	constructor:(@o={})->
 		@vars()
-
 		@animate()
 		@animateRainbow()
 
