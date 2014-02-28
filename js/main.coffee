@@ -13,9 +13,7 @@ class Main
 
 	vars:->
 		@settings = @extend @defaults, @o
-
 		@currentProgress = 2000
-
 		@rainbow 			= document.getElementById('rainbow')
 		@process 			= document.getElementById('js-process')
 		@processText 	= document.getElementById('js-process-text')
@@ -47,8 +45,6 @@ class Main
 			@process.setAttribute 'stroke-dashoffset', n
 			@currentProgress = n
 			@processText.textContent = "#{100-(n/20).toFixed(0)}%"
-
-
 
 	animateRainbow:->
 		console.log 'anima'
