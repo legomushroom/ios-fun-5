@@ -20,7 +20,6 @@ class Main
 		@easing  			= TWEEN.Easing.Quadratic.Out
 		@scanImage 		= document.getElementById('js-scan-image')
 		console.log @scanImage
-
 		@animate 			= @bind @animate, @
 
 	extend:(obj, obj2)->
