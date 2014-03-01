@@ -19,7 +19,6 @@ class Main
 		@processText 	= document.getElementById('js-process-text')
 		@easing  			= TWEEN.Easing.Quadratic.Out
 		@scanImage 		= document.getElementById('js-scan-image')
-		console.log @scanImage
 		@animate 			= @bind @animate, @
 
 	extend:(obj, obj2)->
@@ -46,7 +45,6 @@ class Main
 			@processText.textContent = "#{100-(n/20).toFixed(0)}%"
 
 	animateRainbow:->
-		console.log 'anima'
 		it = @
 		tween = new TWEEN.Tween({ deg: 0 })
 			.to({ deg: 360 }, @settings.rainbowTime)

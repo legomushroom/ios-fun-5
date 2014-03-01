@@ -25,7 +25,6 @@
       this.processText = document.getElementById('js-process-text');
       this.easing = TWEEN.Easing.Quadratic.Out;
       this.scanImage = document.getElementById('js-scan-image');
-      console.log(this.scanImage);
       return this.animate = this.bind(this.animate, this);
     };
 
@@ -67,7 +66,6 @@
     Main.prototype.animateRainbow = function() {
       var it, tween;
 
-      console.log('anima');
       it = this;
       return tween = new TWEEN.Tween({
         deg: 0
