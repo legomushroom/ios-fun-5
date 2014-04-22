@@ -1,4 +1,3 @@
-
 class Main
 	defaults:
 		transition:    1000
